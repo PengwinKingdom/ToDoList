@@ -1,16 +1,41 @@
-# React + Vite
+# To Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive To Do List application built with **React**, focused on task organization, priority management, and calendar-based visualization.
 
-Currently, two official plugins are available:
+## Live Demo
+👉 https://task-planner-pengwin.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- ➕ Add tasks with title, description, and priority
+- 📅 Calendar view to manage tasks by date
+- 🔁 Pending tasks remain visible until completed
+- 📊 Progress tracking with interactive slider
+- 🏷 Priority levels (High, Medium, Low)
+- ✏️ Edit tasks in a modal
+- ✅ Mark tasks as done
+- 🗑 Delete tasks
+- 💾 Persistent storage using `localStorage`
+- 📱 Responsive design
 
-## React Compiler
+## Built With
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Material UI (Date Picker)**
+- **React Bootstrap (Progress Bar)**
+- **Day.js**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Run locally
+```bash
+npm install
+npm run dev
+```
+
+Open the URL shown in the terminal ( usually http://localhost:5173 )
+
